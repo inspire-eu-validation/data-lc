@@ -36,7 +36,5 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression                     |Multiplicity       |Voidable
 ---------------------------------------------------------- | ------------------------------------- | ------------------|----------
-LandCoverUnit geometry <a name="geometries"></a> | //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Surface <br> //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Point | 1 | No
-coveredPercentage <a name="coveredPercentage"></a> | //schema-element(lcv:LandCoverUnit)/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:mosaic/lcv:LandCoverValue/lcv:coveredPercentage | 1 | Yes
-
-*Add paths for embedded encoding*
+LandCoverUnit geometry <a name="geometries"></a> | //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Surface <br> //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Point <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:Surface <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:Point | 1 | No
+coveredPercentage <a name="coveredPercentage"></a> | //schema-element(lcv:LandCoverUnit)/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:mosaic/lcv:LandCoverValue/lcv:coveredPercentage <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:mosaic/lcv:LandCoverValue/lcv:coveredPercentage | 1 | Yes
