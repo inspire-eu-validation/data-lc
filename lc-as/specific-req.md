@@ -31,4 +31,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 Abbreviation                   |  XPath expression                 |Multiplicity       |Voidable
 ------------------------------ | --------------------------------- | ------------------|----------
 external description <a name="external"></a> | //schema-element(lcv:LandCoverDataset)/lcv:nomenclatureDocumentation/lcn:LandCoverNomenclature/lcn:externalDescription | 0..\* | Yes
-TO BE COMPLETED
+" | //schema-element(lcv:LandCoverGridCoverage)/lcv:nomenclatureDocumentation/lcn:LandCoverNomenclature/lcn:externalDescription | 0..\* | Yes
