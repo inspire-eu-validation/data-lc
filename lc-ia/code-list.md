@@ -33,5 +33,5 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression      |Multiplicity   |Voidable
 ---------------------------------------------------------- | -----------------------|---------------|---------------------------------
-LandCoverClassValue <a name="LandCoverClassValue"></a> | //schema-element(lcv:LandCoverUnit)/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:class/@xlink:href | 1 | No
-TO BE COMPLETED
+LandCoverClassValue <a name="LandCoverClassValue"></a> | //schema-element(lcv:LandCoverUnit)/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:class/@xlink:href <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:class/@xlink:href | 1 | No
+" | //schema-element(lcv:LandCoverUnit)/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:mosaic/lcv:LandCoverValue/lcv:class/@xlink:href <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:mosaic/lcv:LandCoverValue/lcv:class/@xlink:href | 1 (1..\* for the parent, lcv:mosaic) | No
