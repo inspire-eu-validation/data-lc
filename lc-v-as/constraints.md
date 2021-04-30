@@ -22,6 +22,9 @@ The following checks are performed for every feature in the dataset.
 
 **Notes** 
 
+GM_Surface is implemented in GML by: gml:Surface, gml:Polygon, gml:PolyhedralSurface and gml:TriangulatedSurface.
+GM_Point is implemented in GML by gml:Point.  
+
 Verify that the OCL constraints that are specified in the UML model of the application schema are met, i.e. validate features against the constraints. For unmet constraints report [constraintViolation](#constraintViolation).
 
 ## Messages
@@ -36,5 +39,5 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression                     |Multiplicity       |Voidable
 ---------------------------------------------------------- | ------------------------------------- | ------------------|----------
-LandCoverUnit geometry <a name="geometries"></a> | //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Surface <br> //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Point <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:Surface <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:Point | 1 | No
+LandCoverUnit geometry <a name="geometries"></a> | //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Surface <br> //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Polygon <br> //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:PolyhedralSurface <br> //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:TriangulatedSurface <br> //schema-element(lcv:LandCoverUnit)/lcv:geometry/gml:Point <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:Surface <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:Polygon <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:PolyhedralSurface <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:TriangulatedSurface <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:geometry/gml:Point | 1 | No
 coveredPercentage <a name="coveredPercentage"></a> | //schema-element(lcv:LandCoverUnit)/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:mosaic/lcv:LandCoverValue/lcv:coveredPercentage <br> //schema-element(lcv:LandCoverDataset)/lcv:member/lcv:LandCoverUnit/lcv:landCoverObservation/lcv:LandCoverObservation/lcv:mosaic/lcv:LandCoverValue/lcv:coveredPercentage | 1 | Yes
