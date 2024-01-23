@@ -1,12 +1,12 @@
 # Land Cover theme-specific requirement
 
-**Purpose**: Verify that, if an [externalDescription] (#external) attribute is provided for a LandCoverNomenclature data type, the referenced online description shall define, for each class, at least a code, a name, a definition and a RGB value to be used for portrayal. If the online description describes the nomenclature for a LandCoverGridCoverage object, an integer grid code shall also be provided for each class. This code shall be used in the range of the LandCoverGridCoverage to represent the corresponding class.
+**Purpose**: Verify that, if an [externalDescription](#external) attribute is provided for a LandCoverNomenclature data type, the referenced online description shall define, for each class, at least a code, a name, a definition and a RGB value to be used for portrayal. If the online description describes the nomenclature for a LandCoverGridCoverage object, an integer grid code shall also be provided for each class. This code shall be used in the range of the LandCoverGridCoverage to represent the corresponding class.
 
 **Prerequisites**
 
 **Test method**
 
-If an [externalDescription] (#external) attribute is provided for a LandCoverNomenclature data type, check manually that the referenced online description defines, for each class, at least a code, a name, a definition and a RGB value to be used for portrayal. If the online description describes the nomenclature for a LandCoverGridCoverage object, an integer grid code shall also be provided for each class. This code shall be used in the range of the LandCoverGridCoverage to represent the corresponding class.
+If an [externalDescription](#external) attribute is provided for a LandCoverNomenclature data type, check manually that the referenced online description defines, for each class, at least a code, a name, a definition and a RGB value to be used for portrayal. If the online description describes the nomenclature for a LandCoverGridCoverage object, an integer grid code shall also be provided for each class. This code shall be used in the range of the LandCoverGridCoverage to represent the corresponding class.
 
 
 **Reference(s)**: 
