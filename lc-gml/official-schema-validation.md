@@ -11,7 +11,7 @@
 * Validate each document against the latest INSPIRE official schema(s), using strict XML schema validation. 
   The official schemas for this data theme are:
   *  Land Cover Raster: https://inspire.ec.europa.eu/schemas/lcr/4.0/LandCoverRaster.xsd
-  *  Land Cover Vector: https://inspire.ec.europa.eu/schemas/lcv/4.0/LandCoverVector.xsd
+  *  Land Cover Vector: https://inspire.ec.europa.eu/schemas/lcv/5.0/LandCoverVector.xsd
 
 **Reference(s)**: 
 
