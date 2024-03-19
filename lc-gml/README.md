@@ -44,6 +44,6 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-lcn    	       | http://inspire.ec.europa.eu/schemas/lcn/4.0
+lcn    	       | http://inspire.ec.europa.eu/schemas/lcn/5.0
 lcr		 	   | http://inspire.ec.europa.eu/schemas/lcr/4.0
-lcv		 	   | http://inspire.ec.europa.eu/schemas/lcv/4.0
+lcv		 	   | http://inspire.ec.europa.eu/schemas/lcv/5.0
