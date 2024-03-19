@@ -37,8 +37,8 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-LC <a name="ref_TG_DS_LC"></a>   | [INSPIRE Data Specification on Land Cover – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LC_v3.0.pdf)
-TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
+TG DS-LC <a name="ref_TG_DS_LC"></a>   | [INSPIRE Data Specification on Land Cover – Technical Guidelines](https://knowledge-base.inspire.ec.europa.eu/publications/inspire-data-specification-land-cover-technical-guidelines_en)
+TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template](https://knowledge-base.inspire.ec.europa.eu/publications/data-specifications-template_en)
 
 ## Test Cases
 
@@ -53,8 +53,8 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-lcv  		   | http://inspire.ec.europa.eu/schemas/lcv/4.0
-base           | http://inspire.ec.europa.eu/schemas/base/3.3
+lcv  		   | http://inspire.ec.europa.eu/schemas/lcv/5.0
+base           | http://inspire.ec.europa.eu/schemas/base/4.0
 gml            | http://www.opengis.net/gml/3.2
 wfs            | http://www.opengis.net/wfs/2.0
 xsi            | http://www.w3.org/2001/XMLSchema-instance
