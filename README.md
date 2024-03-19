@@ -1,6 +1,6 @@
 # Data Specification on Land Cover
                        
-The Data Specification on Land Cover – Technical Guidelines (version 3.0) and the associated GML application schema specifying requirements for the interoperability of spatial data sets of the data theme Land Cover.
+The Data Specification on Land Cover – Technical Guidelines and the associated GML application schema specifying requirements for the interoperability of spatial data sets of the data theme Land Cover.
 
 The specification specifies the following conformance classes:
 
