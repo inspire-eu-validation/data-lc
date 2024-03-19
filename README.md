@@ -1,19 +1,19 @@
 # Data Specification on Land Cover
                        
-The Data Specification on Land Cover – Technical Guidelines (version 3.0) and the associated GML application schema specifying requirements for the interoperability of spatial data sets of the data theme Land Cover.
+The Data Specification on Land Cover – Technical Guidelines and the associated GML application schema specifying requirements for the interoperability of spatial data sets of the data theme Land Cover.
 
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [GML application schemas, Land Cover](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-gml) | INSPIRE spatial data set encoded in GML, Land Cover features |
-| [Application Schema, Land Cover Nomenclature](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-as) | INSPIRE spatial data set |
-| [Application Schema, Land Cover Raster](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-r-as) | INSPIRE spatial data set |
-| [Application Schema, Land Cover Vector](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-v-as) | INSPIRE spatial data set |
-| [Reference Systems, Land Cover](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-rs) | INSPIRE spatial data set |
-| [Data Consistency, Land Cover](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-dc) | INSPIRE spatial data set |
-| [Information Accessibility, Land Cover](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-ia) | INSPIRE spatial data set |
-| [Portrayal, Land Cover](http://inspire.ec.europa.eu/id/ats/data-lc/3.0/lc-portrayal) | INSPIRE view service |
+| [GML application schemas, Land Cover](./lc-gml) | INSPIRE spatial data set encoded in GML, Land Cover features |
+| [Application Schema, Land Cover Nomenclature](./lc-as) | INSPIRE spatial data set |
+| [Application Schema, Land Cover Raster](./lc-r-as) | INSPIRE spatial data set |
+| [Application Schema, Land Cover Vector](./lc-v-as) | INSPIRE spatial data set |
+| [Reference Systems, Land Cover](./lc-rs) | INSPIRE spatial data set |
+| [Data Consistency, Land Cover](./lc-dc) | INSPIRE spatial data set |
+| [Information Accessibility, Land Cover](./lc-ia) | INSPIRE spatial data set |
+| [Portrayal, Land Cover](./lc-portrayal) | INSPIRE view service |
 
 
 ## Approach

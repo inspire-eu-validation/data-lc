@@ -8,10 +8,10 @@
 
 * Verify that any feature reference in an association role is publicly accessible via HTTP, i.e. inspect all relevant properties. If a reference (@xlink:href) has a value that starts with "#", verify that an element with a `gml:id` attribute with the referenced identifier exists in the same document. If the reference starts with "http", verify that a HTTP GET request to the URI retrieves an XML document. Otherwise report [brokenLink](#brokenLink).
 
-This data theme currently has the following association role:
+This data theme currently has the following association roles:
 
 * [LandCoverDataset.member](#member): LandCoverUnit 
-
+* [LandCoverUnit.dataset](#dataset): LandCoverDataset 
 
 **Reference(s)**: 
 
@@ -34,3 +34,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 Abbreviation                         |  XPath expression    | Multiplicity    | Voidable
 ------------------------------------ | ---------------------|-----------------|------------
 LandCoverDataset.member <a name ="member"></a>	| //schema-element(lcv:LandCoverDataset)/lcv:member/@xlink:href | 1..\* | No
+LandCoverUnit.dataset <a name ="dataset"></a>	| //schema-element(lcv:LandCoverUnit)/lcv:dataset/@xlink:href | 1 | No

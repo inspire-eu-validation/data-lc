@@ -46,8 +46,8 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-LC <a name="ref_TG_DS_LC"></a>   | [INSPIRE Data Specification on Land Cover – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LC_v3.0.pdf)
-TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
+TG DS-LC <a name="ref_TG_DS_LC"></a>   | [INSPIRE Data Specification on Land Cover – Technical Guidelines](https://knowledge-base.inspire.ec.europa.eu/publications/inspire-data-specification-land-cover-technical-guidelines_en)
+TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template](https://knowledge-base.inspire.ec.europa.eu/publications/data-specifications-template_en)
 
 ## Test Cases
 
